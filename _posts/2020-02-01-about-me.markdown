@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "A little bit About me"
+excerpt: I am Full Stack Mobile Engineer having 5+ years of experience, currently working at @Freecharge as Lead Android SDE. I love reading stuff on latest updates on android development, system designs and scaled infrastructures...
+date:   2020-02-02 00:03:36 +0530
+---
+Hello
+
+I am Full Stack Mobile Engineer having 5+ years of experience, currently working at @Freecharge as Lead Android SDE. I love reading stuff on latest updates on android development, system designs and scaled infrastructures.
+
+I love talking about android, architectural practices and kotlin. 
+
+I have a thing for automating things & have experience in setting up backend infrastructure (from setting up multiple domains to autoscaling instances) on aws while developing @FlypTrip. 
+
+
+

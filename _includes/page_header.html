@@ -1,0 +1,14 @@
+<div class="container">
+	<img src="/assets/me.jpg" width="100" alt="Arun Sharma" class="panel-cover__logo logo">
+	<h1>{{ site.texture.title }}</h1>
+	<h3>Android Ninja, Full Stack Developer, Internet Lover</h3>
+	<ul class="social">
+		{%- if site.texture.social_links.github -%}
+			<a href="https://github.com/{{ site.texture.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+		{%- endif -%}
+			<a href="https://linkedin.com/in/arunsharma92"><li><i class="icon-linkedin-squared"></i></li></a>
+		{%- if site.texture.social_links.twitter -%}
+			<a href="https://twitter.com/{{ site.texture.social_links.twitter }}"><li><i class="icon-twitter-squared"></i></li></a>
+		{%- endif -%}
+	</ul>
+</div>
