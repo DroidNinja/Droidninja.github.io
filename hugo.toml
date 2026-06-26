@@ -51,13 +51,9 @@ target = "_blank"
     url = "/about/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    url = "/projects/"
+    name = "Blog"
+    url = "/blog/"
     weight = 3
-  [[menu.header]]
-    name = "Tutorials"
-    url = "/tutorials/"
-    weight = 4
 
 [minify]
   disableCSS = false

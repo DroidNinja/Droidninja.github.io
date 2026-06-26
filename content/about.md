@@ -2,59 +2,17 @@
 title: "About Me"
 date: 2024-01-01
 draft: false
+description: "Android engineer at Swiggy, building widget frameworks and performance tooling at scale."
 ---
 
-I'm Arun Sharma, also known as DroidNinja - a passionate Android Developer and Full Stack Engineer with deep expertise in modern mobile development.
+I'm Arun Sharma — an Android engineer based in New Delhi, currently SDE IV at **Swiggy**, working across Food & Instamart.
 
-## What I Do
+## Highlights
 
-📱 **Android Development**
-- Native Android apps using Kotlin and Java
-- Modern Architecture Components (MVVM, MVI)
-- Jetpack Compose for declarative UIs
-- Clean architecture and best practices
+- Leading the **Discovery Charter** for Instamart, evolving Swiggy's high-traffic search and listing experiences. Previously headed Food Discovery, architecting the widget-based framework now used across Home and Collection screens company-wide.
+- Cut app startup time (TTID) by **35%** and reduced frozen/slow frames by **33%** across listing screens through performance auditing, macrobenchmarking, and a custom view-pooling architecture.
+- Built and maintain [Android FilePicker](https://github.com/droidNinja/Android-FilePicker), an open-source library with **2.7k+ GitHub stars**.
+- Previously Principal Engineer at **Freecharge**, leading banking & investment products (Mutual Funds, Personal Loans, FDs) and taking the app from a monolith to a modular architecture.
+- Co-founded **Vertical Idea**, building FlypTrip end-to-end — Android frontend, Node.js backend.
 
-⚙️ **Backend Development**
-- Spring Boot microservices
-- RESTful APIs and GraphQL
-- Database design and optimization
-- Cloud deployment (AWS, GCP)
-
-🎨 **Full Stack Solutions**
-- React/Next.js frontend development
-- TypeScript and modern JavaScript
-- Real-time applications with WebSockets
-- CI/CD pipeline implementation
-
-## Tech Stack
-
-### Mobile
-- Kotlin • Java • Swift (basic)
-- Jetpack Compose • XML Layouts
-- Room • Retrofit • Dagger/Hilt
-- Coroutines • Flow • RxJava
-
-### Backend
-- Spring Boot • Spring Security
-- Node.js • Express
-- PostgreSQL • MongoDB
-- Redis • Kafka
-
-### Frontend & DevOps
-- React • Next.js • TypeScript
-- Docker • Kubernetes
-- AWS • GitHub Actions
-- Terraform (learning)
-
-## Experience
-
-I've worked on various projects ranging from startup MVPs to enterprise-scale applications. My focus is always on writing clean, maintainable code and creating great user experiences.
-
-## Let's Connect
-
-Feel free to reach out if you want to discuss Android development, collaborate on a project, or just chat about tech!
-
-- 📧 Email: Available on request
-- 💼 LinkedIn: [arunsharma92](https://linkedin.com/in/arunsharma92)
-- 🐙 GitHub: [droidNinja](https://github.com/droidNinja)
-- 🐦 Twitter: [@droid_arun](https://twitter.com/droid_arun)
+10+ years building Android apps and the systems behind them, from early-stage startups to scale.
