@@ -33,13 +33,6 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
 
-      - name: Debug sass resolution
-        run: |
-          echo "PATH=$PATH"
-          ls node_modules/.bin/ || true
-          ls node_modules | grep -i sass || true
-          node_modules/.bin/sass --version || true
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:

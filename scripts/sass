@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Wrapper that always invokes the sass-embedded package's own dispatcher,
+# bypassing node_modules/.bin/sass which npm sometimes links to the plain
+# `sass` (pure-JS, no --embedded support) package instead of sass-embedded.
+exec node "$(dirname "${BASH_SOURCE[0]}")/../node_modules/sass-embedded/dist/bin/sass.js" "$@"
