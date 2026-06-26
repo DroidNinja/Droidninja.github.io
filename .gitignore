@@ -1,0 +1,10 @@
+.claude/settings.local.json
+
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Node (sass-embedded for theme build)
+/node_modules/
+

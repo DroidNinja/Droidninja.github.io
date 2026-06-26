@@ -1,0 +1,65 @@
+baseURL = 'https://arunsharma.me/'
+locale = 'en-us'
+title = 'Arun Sharma'
+theme = ['nightfall']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  user = "arun"
+  hostname = "arunsharma.me"
+  displayDateFormat = "January 2, 2006"
+  openLinksInNewTab = true
+
+  [params.author]
+    name = "Arun Sharma"
+    email = "arun2007ind@gmail.com"
+    avatar = "/images/me.jpg"
+    avatarFirst = true
+
+[[params.social]]
+key = 0
+name = "linkedin"
+url = "https://linkedin.com/in/arunsharma92"
+aria = "LinkedIn Profile"
+target = "_blank"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://twitter.com/droid_arun"
+aria = "Twitter Profile"
+target = "_blank"
+
+[[params.social]]
+key = 2
+name = "github"
+url = "https://github.com/droidNinja"
+aria = "GitHub Profile"
+target = "_blank"
+
+[menu]
+  [[menu.header]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.header]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.header]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.header]]
+    name = "Tutorials"
+    url = "/tutorials/"
+    weight = 4
+
+[minify]
+  disableCSS = false
+  disableJS = true
+  enableTIDYHTML5 = true

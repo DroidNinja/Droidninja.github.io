@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "server": "hugo server",
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.100.0"
+  }
+}
