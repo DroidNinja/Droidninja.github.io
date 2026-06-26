@@ -23,6 +23,9 @@
                     {{ end }}
                     <div>
                         <h1 class="indexHeader">{{ .Site.Params.author.name }}</h1>
+                        {{ with .Site.Params.author.status }}
+                            <p class="indexStatus">{{ . }}</p>
+                        {{ end }}
                     </div>
                     {{ if not .Site.Params.author.avatarFirst }}
                         {{ partial "avatar.html" . }}
