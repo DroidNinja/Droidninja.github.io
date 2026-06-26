@@ -4,14 +4,16 @@
 // Colors
 $darkGrey: #323232;
 $white: #f8f8ff;
-$black: #2f2f2f;
+$black: #161616;
 
-$backgroundDarker: #252627;
-$backgroundDark: #292a2d;
+$backgroundDarker: #050505;
+$backgroundDark: #0c0d0e;
+
+$cyan: #61dafb;
 
 //Fonts
 $fontHeader: 'Fira Mono', monospace;
-$fontParagraph: 'Open Sans', sans-serif;
+$fontParagraph: 'Fira Mono', monospace;
 $fontCode: 'Fira Mono', monospace;
 
 // Content
@@ -22,7 +24,8 @@ $primary-colors: (
     'blue': #80AADD,
     'orange': #FFB300,
     'green': #33D17A,
-    'red': #F26E74
+    'red': #F26E74,
+    'cyan': #61dafb
 );
 
 @mixin primary-color {

@@ -14,6 +14,9 @@ theme = ['nightfall']
   displayDateFormat = "January 2, 2006"
   openLinksInNewTab = true
 
+  [params.styles]
+    color = "green"
+
   [params.author]
     name = "Arun Sharma"
     email = "arun2007ind@gmail.com"

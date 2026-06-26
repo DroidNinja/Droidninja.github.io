@@ -41,6 +41,18 @@
   text-decoration: none;
 }
 
+.prompt-host {
+  color: v.$cyan;
+}
+
+.prompt-path {
+  color: v.$white;
+}
+
+.prompt-symbol {
+  @include v.primary-color;
+}
+
 .hamb {
   cursor: pointer;
   float: right;

@@ -2,7 +2,9 @@
     <div class="header">
         <div>
             <a class="terminal" href="{{ .Site.BaseURL | relLangURL }}">
-                <span>{{ .Site.Params.user }}@{{ .Site.Params.hostname }} ~ $</span>
+                <span class="prompt-host">{{ .Site.Params.user }}@{{ .Site.Params.hostname }}</span>
+                <span class="prompt-path">~</span>
+                <span class="prompt-symbol">$</span>
             </a>
         </div>
         <input class="side-menu" type="checkbox" id="side-menu">
