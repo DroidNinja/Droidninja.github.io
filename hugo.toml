@@ -9,7 +9,6 @@ theme = ['nightfall']
       unsafe = true
 
 [params]
-  user = "arun"
   hostname = "arunsharma.me"
   displayDateFormat = "January 2, 2006"
   openLinksInNewTab = true
