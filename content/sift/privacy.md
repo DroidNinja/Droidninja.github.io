@@ -72,7 +72,7 @@ This is **off by default**. The GitHub (FOSS) version has no Drive backup, only 
   your Drive. An option there also deletes the backups from Drive. You can also delete them at
   [drive.google.com](https://drive.google.com) → Settings → Manage apps → Sift SMS → Delete hidden app data, and
   remove Sift's access at [myaccount.google.com](https://myaccount.google.com) → Security → Third-party
-  connections.
+  connections. Removing access stops Sift from reaching your backups but does not delete them.
 
 **How Sift uses your Google data:** Sift uses Drive access only to store and restore your own backups. It does
 not use this data for ads, does not sell it, does not transfer it to others, and no human reads it. Sift's use
@@ -105,8 +105,10 @@ Reports are encrypted in transit (HTTPS). Turning the setting off stops reports.
 
 Sift stores its data on your phone. Uninstalling Sift or clearing its app data deletes it from the phone.
 
-If you turned on Google Drive backup, your backups stay in your Drive until you turn off backup and choose to
-delete them, delete them in Drive, or remove Sift's access. Sift keeps only the newest 2 backups.
+If you turned on Google Drive backup, your backups stay in your Drive until you delete them, either in Sift
+(Turn off backup, with the option to also delete backups) or at drive.google.com → Settings → Manage apps →
+Sift SMS → Delete hidden app data. Removing Sift's access at myaccount.google.com stops Sift from reaching the
+backups but does not delete them. Sift keeps only the newest 2 backups.
 
 If you turned on crash reports, Firebase keeps that data according to Google's retention rules
 (about 90 days for Crashlytics).
